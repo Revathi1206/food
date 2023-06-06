@@ -1,0 +1,193 @@
+header {
+  width: 100%;
+  min-width: 400px;
+  padding: 1rem 0px;
+  text-align: center;
+  background: linear-gradient(to right, rgb(196, 96, 38), rgb(119, 34, 23));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  margin: 0;
+}
+body {
+  background: burlywood;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+  font-size: 20px;
+  color: rgb(90, 36, 4);
+}
+@media (max-width: 760px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.head {
+  font-size: 40px;
+  margin-bottom: 0;
+  color: rgb(53, 7, 1);
+}
+.subtitle {
+  margin-top: 0;
+  color: rgb(255, 214, 30);
+}
+a {
+  color: rgb(41, 10, 10);
+  text-decoration: none;
+  transition: color 1.5s;
+}
+a:hover,
+a:focus {
+  color: aqua;
+}
+a:focus {
+  border-bottom: 2px solid aqua;
+}
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-family: "Russo One", sans-serif;
+  line-height: 2rem;
+  padding: 2rem;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main-image1 {
+  width: 100%;
+}
+main {
+  width: 70%;
+  padding: 3rem;
+  background: rgba(97, 54, 38, 0.6);
+}
+aside {
+  width: 20%;
+  background-color: rgba(97, 54, 38, 0.6);
+  padding: 3rem;
+}
+.main1 {
+  margin-bottom: 3rem;
+  font-size: 20px;
+}
+.main3,
+.main2,
+.main4 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 20px;
+  margin-bottom: 3rem;
+  background: rgba(145, 84, 56, 0.6);
+  align-items: center;
+}
+.main-image3,
+.main-image2,
+.main-image4 {
+  width: 100%;
+  border: 0.5rem solid rgb(252, 133, 65);
+}
+.side-image1,
+.side-image2,
+.side-image3,
+.side-image4 {
+  width: 100%;
+  border: 0.5rem solid rgb(252, 133, 65);
+}
+
+@media (max-width: 720px) {
+  .main-image3,
+  .main-image2,
+  .main-image4 {
+    width: 70%;
+  }
+  .main3,
+  .main2,
+  .main4 {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin-bottom: 3rem;
+  }
+  aside {
+    width: 70%;
+  }
+  .side-image1,
+  .side-image2,
+  .side-image3,
+  .side-image4 {
+    width: 100%;
+  }
+}
+cite {
+  font-size: 10px;
+}
+.main-para1,
+.main-para2,
+.main-para3,
+.main-para4,
+.side-para1,
+.side-para2,
+.side-para3,
+.side-para4 {
+  color: rgb(43, 13, 8);
+}
+.main-link1,
+.main-link2,
+.main-link3,
+.main-link4 {
+  color: rgb(168, 240, 0);
+}
+span,
+.side-head1,
+.side-head2 {
+  color: rgba(73, 4, 2, 0.979);
+}
+.main-link1:hover,
+.main-link2:hover,
+.main-link3:hover,
+.main-link4:hover {
+  color: rgb(41, 233, 185);
+  font-size: 0.8rem;
+}
+.main-link1:focus,
+.main-link2:focus,
+.main-link3:focus,
+.main-link4:focus {
+  color: rgb(250, 62, 62);
+  border: none;
+}
+footer {
+  background: rgb(65, 7, 7);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+footer h3 {
+  margin-bottom: 0;
+}
+footer p {
+  margin-top: 0;
+}
